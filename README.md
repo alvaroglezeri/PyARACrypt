@@ -12,7 +12,7 @@ from ARACrypt import ARACrypt
 with open(path, 'rb') as f:
     content = f.read()
 
-    # Key must be a bytes object. To use a str, convert like this: 
+    # Key must be a bytes object. To use a str, convert it before: 
     key: bytes = bytes('my_key', 'utf-8')
 
     # Create ARACrypt object
