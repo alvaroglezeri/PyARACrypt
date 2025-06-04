@@ -96,7 +96,7 @@ class ARACrypt:
 
         return ret
 
-    def transform_bytes(self, key: bytes, data: bytes) -> bytes:
+    def transform_bytes(self, key: bytes, data: bytes) -> bytearray:
         """Performs a transformation on a set of bytes, byte by byte. This works symmetrically as encryption/decryption.
 
         Args:
